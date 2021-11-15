@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html&gt;</p>
+<p class="p1">&lt;title&gt;W3.CSS Template&lt;/title&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
+<p class="p1">&lt;link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"&gt;</p>
+<p class="p1">&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"&gt;</p>
+<p class="p1">&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"&gt;</p>
+<p class="p1">&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1">.w3-sidebar a {font-family: "Roboto", sans-serif}</p>
+<p class="p1">body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;body class="w3-content" style="max-width:1200px"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Sidebar/menu --&gt;</p>
+<p class="p1">&lt;nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-container w3-display-container w3-padding-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3 class="w3-wide"&gt;&lt;b&gt;LOGO&lt;/b&gt;&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Shirts&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Dresses&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>Jeans &lt;i class="fa fa-caret-down"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#" class="w3-bar-item w3-button w3-light-grey"&gt;&lt;i class="fa fa-caret-right w3-margin-right"&gt;&lt;/i&gt;Skinny&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Relaxed&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Bootcut&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Straight&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Jackets&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Gymwear&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Blazers&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Shoes&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#footer" class="w3-bar-item w3-button w3-padding"&gt;Contact&lt;/a&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'"&gt;Newsletter&lt;/a&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#footer"<span class="Apple-converted-space">  </span>class="w3-bar-item w3-button w3-padding"&gt;Subscribe&lt;/a&gt;</p>
+<p class="p1">&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Top menu on small screens --&gt;</p>
+<p class="p1">&lt;header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-bar-item w3-padding-24 w3-wide"&gt;LOGO&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"&gt;&lt;i class="fa fa-bars"&gt;&lt;/i&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Overlay effect when opening sidebar on small screens --&gt;</p>
+<p class="p1">&lt;div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- !PAGE CONTENT! --&gt;</p>
+<p class="p1">&lt;div class="w3-main" style="margin-left:250px"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Push down content on small screens --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-hide-large" style="margin-top:83px"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Top header --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;header class="w3-container w3-xlarge"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="w3-left"&gt;Jeans&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="w3-right"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;i class="fa fa-shopping-cart w3-margin-right"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;i class="fa fa-search"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Image header --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-display-container w3-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;img src="/w3images/jeans.jpg" alt="Jeans" style="width:100%"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-display-topleft w3-text-white" style="padding:24px 48px"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1 class="w3-jumbo w3-hide-small"&gt;New arrivals&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1 class="w3-hide-large w3-hide-medium"&gt;New arrivals&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1 class="w3-hide-small"&gt;COLLECTION 2016&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;&lt;a href="#jeans" class="w3-button w3-black w3-padding-large w3-large"&gt;SHOP NOW&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-container w3-text-grey" id="jeans"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;8 items&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Product grid --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-row w3-grayscale"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-col l3 s6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="/w3images/jeans1.jpg" style="width:100%"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Ripped Skinny Jeans&lt;br&gt;&lt;b&gt;$24.99&lt;/b&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="/w3images/jeans2.jpg" style="width:100%"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Mega Ripped Jeans&lt;br&gt;&lt;b&gt;$19.99&lt;/b&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-col l3 s6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="w3-display-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="/w3images/jeans2.jpg" style="width:100%"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="w3-tag w3-display-topleft"&gt;New&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="w3-display-middle w3-display-hover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="w3-button w3-black"&gt;Buy now &lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Mega Ripped Jeans&lt;br&gt;&lt;b&gt;$19.99&lt;/b&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="/w3images/jeans3.jpg" style="width:100%"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Washed Skinny Jeans&lt;br&gt;&lt;b&gt;$20.50&lt;/b&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-col l3 s6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="/w3images/jeans3.jpg" style="width:100%"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Washed Skinny Jeans&lt;br&gt;&lt;b&gt;$20.50&lt;/b&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="w3-display-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="/w3images/jeans4.jpg" style="width:100%"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="w3-tag w3-display-topleft"&gt;Sale&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="w3-display-middle w3-display-hover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="w3-button w3-black"&gt;Buy now &lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Vintage Skinny Jeans&lt;br&gt;&lt;b class="w3-text-red"&gt;$14.99&lt;/b&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-col l3 s6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="/w3images/jeans4.jpg" style="width:100%"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Vintage Skinny Jeans&lt;br&gt;&lt;b&gt;$14.99&lt;/b&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="/w3images/jeans1.jpg" style="width:100%"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Ripped Skinny Jeans&lt;br&gt;&lt;b&gt;$24.99&lt;/b&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Subscribe section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-container w3-black w3-padding-32"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Subscribe&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;To get special offers and VIP treatment:&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;&lt;input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button type="button" class="w3-button w3-red w3-margin-bottom"&gt;Subscribe&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Footer --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-row-padding"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-col s4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;Contact&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Questions? Go ahead.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;form action="/action_page.php" target="_blank"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;&lt;input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;&lt;input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;&lt;input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;&lt;input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;button type="submit" class="w3-button w3-block w3-black"&gt;Send&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-col s4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;About&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;a href="#"&gt;About us&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;a href="#"&gt;We're hiring&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;a href="#"&gt;Support&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;a href="#"&gt;Find store&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;a href="#"&gt;Shipment&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;a href="#"&gt;Payment&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;a href="#"&gt;Gift card&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;a href="#"&gt;Return&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;a href="#"&gt;Help&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-col s4 w3-justify"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;Store&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;i class="fa fa-fw fa-map-marker"&gt;&lt;/i&gt; Company Name&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;i class="fa fa-fw fa-phone"&gt;&lt;/i&gt; 0044123123&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;i class="fa fa-fw fa-envelope"&gt;&lt;/i&gt; ex@mail.com&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;We accept&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;i class="fa fa-fw fa-cc-amex"&gt;&lt;/i&gt; Amex&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;i class="fa fa-fw fa-credit-card"&gt;&lt;/i&gt; Credit Card&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-facebook-official w3-hover-opacity w3-large"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-instagram w3-hover-opacity w3-large"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-snapchat w3-hover-opacity w3-large"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-pinterest-p w3-hover-opacity w3-large"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-twitter w3-hover-opacity w3-large"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-linkedin w3-hover-opacity w3-large"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-black w3-center w3-padding-24"&gt;Powered by &lt;a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity"&gt;w3.css&lt;/a&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- End page content --&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Newsletter Modal --&gt;</p>
+<p class="p1">&lt;div id="newsletter" class="w3-modal"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-modal-content w3-animate-zoom" style="padding:32px"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-container w3-white w3-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 class="w3-wide"&gt;NEWSLETTER&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Join our mailing list to receive updates on new arrivals and special offers.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;&lt;input class="w3-input w3-border" type="text" placeholder="Enter e-mail"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'"&gt;Subscribe&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1">// Accordion<span class="Apple-converted-space"> </span></p>
+<p class="p1">function myAccFunc() {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>var x = document.getElementById("demoAcc");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if (x.className.indexOf("w3-show") == -1) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>x.className += " w3-show";</p>
+<p class="p1"><span class="Apple-converted-space">  </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>x.className = x.className.replace(" w3-show", "");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">// Click on the "Jeans" link on page load to open the accordion for demo purposes</p>
+<p class="p1">document.getElementById("myBtn").click();</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">// Open and close sidebar</p>
+<p class="p1">function w3_open() {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById("mySidebar").style.display = "block";</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById("myOverlay").style.display = "block";</p>
+<p class="p1">}</p>
+<p class="p2"><span class="Apple-converted-space"> </span></p>
+<p class="p1">function w3_close() {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById("mySidebar").style.display = "none";</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById("myOverlay").style.display = "none";</p>
+<p class="p1">}</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
